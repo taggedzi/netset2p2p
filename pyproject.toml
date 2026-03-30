@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "netset2p2p"
-version = "1.0.1"
+version = "1.0.2"
 description = "Convert netset files to p2p files."
 readme = "README.md"
 requires-python = ">=3.10"
