@@ -71,6 +71,25 @@ mypy src
 pytest
 ```
 
+## Release
+
+Prerequisites:
+
+- `gh` authenticated for `taggedzi/netset2p2p`
+- clean git working tree
+- release notes added under `## [Unreleased]` in `CHANGELOG.md`
+
+Create a release with a patch bump:
+
+```bash
+python scripts/release.py --bump patch
+```
+
+The script updates the version in `pyproject.toml` (single source of truth),
+promotes changelog entries into a dated release section, runs checks, builds
+`sdist`/wheel, generates checksums, creates CycloneDX SBOM and provenance files,
+tags/pushes, and creates a GitHub release with attached artifacts.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
