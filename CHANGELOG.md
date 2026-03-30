@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
 
+- Added Badges
+  
+### Changed
+
+- Updated Readme to make it easier to use
+- release.py added library call
+- ci -> added logic to build coverage badge in github
+  
 ## [1.0.1] - 2026-03-30
 
 ### Added
